@@ -1,0 +1,270 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    color: #494c4e;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    border: 8px solid #494c4e;
+    margin: 0px;
+}
+
+h1, h2, li {
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+li.list-item {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+ol {
+    font-size: 1.5em;
+}
+
+ol li {
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+}
+
+li {
+    margin-bottom: 1.5em;
+    padding-bottom: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-bottom: 1.5em;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    background-color: #f0eeee;
+}
+a {
+    color: #494c4e;
+    text-decoration: none;
+    margin-bottom: 1.25em;
+    font-weight: bold;
+}
+
+a.yellow, .post a {
+    text-decoration: underline;
+}
+
+a.yellow:hover, .post a:hover {
+    opacity: 0.75;
+}
+
+a:hover .arrow-right {
+    transform: translateX(5px);
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+a:hover .arrow-left {
+    transform: translateX(-5px);
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+.border {
+    border-top: 1px solid #f0eeee;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #f0eeee;
+}
+
+.yellow {
+    color: #F6AC00;
+}
+
+.light-grey {
+    color: #f0eeee;
+}
+
+.space-bottom {
+    margin-bottom: 4em;
+}
+
+.cta-button {
+    border-radius: 5px;
+    border: 1px solid #F6AC00;
+    padding: 1em 1.5em;
+    display: inline-block;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    min-width: 10em;
+    transition: all 0.25s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.025);
+    transition: all 0.25s ease;
+}
+
+.arrow-right {
+    display: inline-block;
+    transition: all 0.25s ease;
+}
+
+.arrow-right {
+    padding-left: 10px;
+}
+
+.outer-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outer-container::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.me {
+    max-width: 15em;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-container {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-container::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.inner-container,
+.outer-container {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.nav-container {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list-item {
+    padding: 0;
+    list-style: none;
+}
+
+.list-item:not(:first-child) {
+    margin-left: 2em;
+}
+
+.list-item a {
+    font-size: 1em;
+    color: #494c4e;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    border-bottom: 2px solid #F6AC00;
+    opacity: 1;
+}
+.navigation-target {
+    display: none;
+}
+
+.mobile-menu-toggle {
+    float: right;
+}
+
+.navigation-toggle {
+    width: 30px;
+    height: 40px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 0.85em;
+}
+
+.navigation-toggle-label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #494c4e;
+    text-align: center;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    left: -60px;
+    bottom: 12px;
+}
+
+.navigation-toggle-icon {
+    border-bottom: 4px solid #494c4e;
+    padding-top: 12px;
+    display: block;
+}
+
+.navigation-toggle-icon:before,
+.navigation-toggle-icon:after {
+    border-top: 4px solid #494c4e;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.navigation-toggle-icon:before {
+    top: 2px;
+}
+
+.navigation-toggle-icon:after {
+    bottom: 14px;
+}
+
+.work {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+footer,
+.cta-section {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 4em;
+
+}
